@@ -1,0 +1,41 @@
+body {
+    margin: 10px !important;
+    background-color: #FFEBB2 !important;
+    padding-bottom: 60px;
+}
+
+.card, .card-body, ul, li {
+    background-color: #BFCCB5 !important;
+}
+
+
+.btn-info{
+    background-color: #562B08 !important;
+    color: #FFEBB2 !important;
+}
+
+.btn-info:hover{
+    background-color: #B99470 !important;
+    border: 0px !important;
+    color: #562B08 !important;
+}
+
+.modal-content{
+    background-color: #FFEBB2 !important;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #8eadcd76;
+    color: black;
+    padding: 20px 0;
+    height: 60px; 
+}
+
+footer p {
+    margin: 0;
+}

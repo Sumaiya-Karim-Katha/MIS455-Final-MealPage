@@ -12,9 +12,12 @@
 </head>
 
 <body>
+    <header class="d-flex justify-content-center">
+        <img src="img1.png" style="height: 300px">
+    </header>
 
     <div class="container">
-        <h3>Search for recipe</h3>
+        <h3 style="color: grey;">Search for recipe</h3>
 
         <form>
             <div class="mb-3">
@@ -25,13 +28,15 @@
         <button onclick="getFive()" type="button" class="btn btn-outline-secondary">Search</button>
         <button onclick="getAll()" type="button" class="btn btn-outline-info">Show All</button>
 
+        <br><br>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" id="box"></div>
     </div>
 
 
-    <div id="box">
-
-    </div>
-
+    <footer>
+        <p>&copy; 2024 Recipe Co.</p>
+    </footer>
 
 
     <script src="script.js"></script>
